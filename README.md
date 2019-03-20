@@ -17,7 +17,7 @@ foreach (range(1, 100000) as $number) {
 ```
 
 ## New way
-```
+```php
 <?php
 
 use CrowdStar\Iterators\Ranger;
