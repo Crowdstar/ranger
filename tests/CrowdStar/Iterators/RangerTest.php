@@ -12,23 +12,22 @@ class RangerTest extends \PHPUnit\Framework\TestCase
     /**
      * @test
      */
-    public function it_tests_a_ranger_is_iterable()
+    public function testRangerIsIterable()
     {
         $ranger = Ranger::init(1, 20);
         $i = 0;
 
-        foreach($ranger as $iteration) {
+        foreach ($ranger as $iteration) {
             $i++;
         }
 
         $this->assertEquals($i, 20);
-
     }
 
     /**
      * @test
      */
-    public function it_tests_a_ranger_is_countable()
+    public function testRangerIsCountable()
     {
         $ranger = Ranger::init(1, 20);
         $count = count($ranger);
