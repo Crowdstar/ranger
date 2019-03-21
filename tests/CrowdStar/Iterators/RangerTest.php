@@ -7,7 +7,7 @@ use CrowdStar\Iterators\Ranger;
 /**
  * Tests for class \CrowdStar\Iterators\Ranger
  */
-class RangerTest extends \PHPUnit_Framework_TestCase
+class RangerTest extends \PHPUnit\Framework\TestCase
 {
   /**
    * @test

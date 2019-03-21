@@ -1,7 +1,7 @@
 {
   "name": "crowdstar/ranger",
   "require-dev": {
-    "phpunit/phpunit": "4.8.*"
+    "phpunit/phpunit": "8.*"
   },
   "autoload": {
     "psr-4": {"CrowdStar\\Iterators\\": "src/"}
