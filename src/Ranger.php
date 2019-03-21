@@ -21,6 +21,7 @@ class Ranger implements \Iterator, \Countable
 
     /**
      * Ranger constructor.
+     *
      * @param int $start
      * @param int $stop
      */
@@ -32,8 +33,8 @@ class Ranger implements \Iterator, \Countable
     }
 
     /**
-     * @param int $start
-     * @param int $end
+     * @param  int $start
+     * @param  int $end
      * @return static
      */
     public static function init($start, $end)
