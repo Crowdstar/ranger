@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/Crowdstar/ranger.svg?branch=master)](https://travis-ci.org/Crowdstar/ranger
+
 Ranger allows you to mimic the range function in PHP as an Iterator, conserving memory for large ranges.
 
 # Installation
