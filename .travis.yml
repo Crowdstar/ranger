@@ -15,4 +15,4 @@ before_install:
 
 script:
   - ./vendor/bin/phpcs -v --standard=PSR2 src tests/CrowdStar
-  - ./vendor/bin/phpunit
+  - ./vendor/bin/phpunit tests
